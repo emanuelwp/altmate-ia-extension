@@ -1,2 +1,2 @@
-# altmate-ia-extension
-A AltMate IA é uma extensão de navegador que gera os textos alternativos das imagens em html (alt) de modo automático utilizando IA
+# AltMate IA
+Uma extensão de navegador que gera os textos alternativos das imagens no html (alt) de forma automática utilizando IA.
