@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Image Description Helper",
+  "version": "1.0",
+  "description": "Extensão para gerar descrições automáticas para imagens usando a API Google Gemini.",
+  "author": "Emanuel Wagner Pereira",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "browser_action": {
+    "default_title": "Image Description Helper"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icons/Alt.png",
+      "48": "icons/Alt.png",
+      "128": "icons/Alt.png"
+    }
+  },
+  "host_permissions": [
+    "http://localhost:3000/*"
+  ]
+}
