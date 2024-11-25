@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Image Description Helper",
+  "name": "AltMate-IA",
   "version": "1.0",
   "description": "Extensão para gerar descrições automáticas para imagens usando a API Google Gemini.",
   "author": "Emanuel Wagner Pereira",
@@ -10,7 +10,7 @@
     "storage"
   ],
   "browser_action": {
-    "default_title": "Image Description Helper"
+    "default_title": "AltMate-IA"
   },
   "background": {
     "service_worker": "background.js"
